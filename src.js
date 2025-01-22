@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     yesBtn.addEventListener("click", () => {
         if (yesBtn.textContent.trim() === "Ok") {
             question.innerHTML = "Yayy!! you can pay here:";
-            img.src = "/kimage.png"; // Initial image
+            img.src = "kimage.png"; // Initial image
             yesBtn.textContent = "Done"; // Change button text to "Done"
         } else if (yesBtn.textContent.trim() === "Done") {
             img.src = "https://i.pinimg.com/originals/dc/dd/45/dcdd45bc02f89241babe4ab61ce69f01.gif"; // Change to the GIF URL
